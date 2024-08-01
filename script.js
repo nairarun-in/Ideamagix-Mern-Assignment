@@ -13,6 +13,7 @@ $(document).ready(function() {
                     lazyImage.src = lazyImage.dataset.src;
                     lazyImage.classList.remove('lazyload');
                     lazyImageObserver.unobserve(lazyImage);
+                    
                 }
             });
         });
