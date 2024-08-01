@@ -2,7 +2,7 @@ $(document).ready(function() {
     // Hide the loading screen after 5 seconds
     setTimeout(function(){
         $('#loading').fadeOut('slow');
-    }, 5000);
+    }, 4000);
 
     let lazyImages = document.querySelectorAll('img.lazyload');
     if ("IntersectionObserver" in window) {
@@ -13,7 +13,7 @@ $(document).ready(function() {
                     lazyImage.src = lazyImage.dataset.src;
                     lazyImage.classList.remove('lazyload');
                     lazyImageObserver.unobserve(lazyImage);
-                    
+
                 }
             });
         });
