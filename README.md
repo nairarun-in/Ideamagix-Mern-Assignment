@@ -1,6 +1,6 @@
 ## Healthcare Website
 
-A responsive healthcare website is needed to provide information about total knee replacement surgery, featuring patient stories, profiles of top orthopedic doctors, and a directory of recommended hospitals.
+A responsive healthcare website is needed to provide information about total knee replacement surgery, featuring patient stories, profiles of top orthopedic doctors, and a directory of recommended hospitals, using modern web development technologies
 
 ## Features:
 
